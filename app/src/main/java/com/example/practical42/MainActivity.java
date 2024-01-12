@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         btnadd.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(),"name="+"marks=",Toast.LENGTH_SHORT).show();
+                Toast.makeText(getApplicationContext(),"Name="+ede.getText().toString()+"\nMarks="+ede1.getText().toString(),Toast.LENGTH_SHORT).show();
             }
         });
     }
